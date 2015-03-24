@@ -1,0 +1,10 @@
+                                                         Gulf Coast Center                                                          
+
+Numeric    Listing of FILE     2  REC 30200       Data Element Specification List                      03/24/2015 10:01am Page     1
+                                                                                                                                    
+     No    Ref Name          Full Name                  Sens    File              Type  Edit  Len  Tbl Record  Picture  Recode Alt  
+    30200 C.CR.CEN.REC     Crisis Respite Census Record   0  (02)CLIENT FILE        R     0     0    0 30200                        
+    30201 C.CR.CENS.ADMTDT Crisis Respite Census Admit Dt 0  (02)CLIENT FILE        D     0    10    0 30200                        
+    30202 C.CR.CENS.ADMTCO Crisis Respite Census Admit Co 0  (02)CLIENT FILE        X     0    32    0 30200                        
+    30203 C.CR.CENS.DSCHDT Crisis Respite Census Disch Dt 0  (02)CLIENT FILE        D     0    10    0 30200                        
+    30204 C.CR.CENS.DAYS   Crisis Respite Census Days     0  (02)CLIENT FILE        B     0     3    0 30200                        
