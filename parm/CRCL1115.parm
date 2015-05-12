@@ -41,10 +41,12 @@ canread-3 Y
 
 label-3-1 Admit Date
 dst-3-1 c.cr.cens.admtdt
+opt-3-1 {"type": "date"}
 label-3-2 Admit County
 dst-3-2 c.cr.cens.admtco
 label-3-3 Discharge Date
 dst-3-3 c.cr.cens.dschdt
+opt-3-3 {"type": "date"}
 label-3-4 Days of Stay
 dst-3-4 c.cr.cens.days
 
