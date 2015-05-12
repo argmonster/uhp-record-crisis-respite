@@ -1,6 +1,9 @@
 <$html uhpver='4'>
 <$body submitlabel='NULL' cancellabel='exit'>
 <link href='$LOCAL/$SYSNAME/css/uhp-record.css' rel='stylesheet' ></link>
+<link href='$LOCAL/$SYSNAME/css/jquery-ui.min.css' rel='stylesheet' ></link>
+<link href='$LOCAL/$SYSNAME/css/jquery-ui.structure.min.css' rel='stylesheet' ></link>
+<link href='$LOCAL/$SYSNAME/css/jquery-ui.theme.min.css' rel='stylesheet' ></link>
 <h1><$literal value='title' /></h1>
 <div class='section' data-bind="template: { name: 'dst-group', foreach: group }"></div>
 <div data-bind="if: debug">
@@ -11,6 +14,7 @@
 <script src='$LOCAL/$SYSNAME/js/json2.min.js'></script>
 <script src='$LOCAL/$SYSNAME/js/lodash.min.js'></script>
 <script src='$LOCAL/$SYSNAME/js/knockout-3.3.0.min.js'></script>
+<script src='$LOCAL/$SYSNAME/js/jquery-ui.min.js'></script>
 
 <script type='text/html' id='dst-group'>
    <h3 class='title' data-bind="text: name"></h3>
@@ -52,10 +56,17 @@
 <script type='text/html' id='dst-data'>
    <div class='dst'>
       <span class='label' data-bind='text:label'></span>
-      <span data-bind='if: $parent.canupdate'>
+      <span data-bind='if: isselect'>
+         <select class='value' data-bind='value: curr, options: options, optionsText: "label", optionsValue: "value", optionsCaption: ""'>
+         </select>
+      </span>
+      <span data-bind='if: isdate'>
+         <input class='value' type='text' data-bind='datepicker: curr, value: curr'></input>
+      </span>
+      <span data-bind='if: istext'>
          <input class='value' type='text' data-bind='textInput: curr'></input>
       </span>
-      <span data-bind='ifnot: $parent.canupdate'>
+      <span class='value' data-bind='ifnot: $parent.canupdate'>
          <span class='value' data-bind='text: curr'></span>
       </span>
    </div>
