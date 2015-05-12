@@ -1,0 +1,5 @@
+|30200|C.CR.CEN.REC    |Crisis Respite Census Record  | 0|  02|H|     0|     0|    0| 30200|                        
+|30201|C.CR.CENS.ADMTDT|Crisis Respite Census Admit Dt| 0|  02|D|     0|    10|    0| 30200|                        
+|30202|C.CR.CENS.ADMTCO|Crisis Respite Census Admit Co| 0|  02|X|     0|    32|    0| 30200|                        
+|30203|C.CR.CENS.DSCHDT|Crisis Respite Census Disch Dt| 0|  02|D|     0|    10|    0| 30200|                        
+|30204|C.CR.CENS.DAYS  |Crisis Respite Census Days    | 0|  02|B|     0|     3|    0| 30200|                        
