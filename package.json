@@ -1,0 +1,22 @@
+{
+  "name": "uhp-record-crisis-respite",
+  "version": "0.0.0",
+  "description": "",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/argmonster/uhp-record-crisis-respite.git"
+  },
+  "author": "Tim Markello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/argmonster/uhp-record-crisis-respite/issues"
+  },
+  "homepage": "https://github.com/argmonster/uhp-record-crisis-respite",
+  "devDependencies": {
+    "mis-util": "^0.3.2"
+  }
+}
